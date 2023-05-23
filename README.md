@@ -3,7 +3,7 @@
 ### Date created: 05-23-2023
 Include the date you created this project and README file.
 
-### Project Title:Final Project
+### Project Title: Git Project
 Replace the Project Title
 
 ### Description: The program takes users' prompts to run statistics from BikeShare's data

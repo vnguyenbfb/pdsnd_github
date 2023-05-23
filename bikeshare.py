@@ -180,7 +180,7 @@ def main():
     restart = input('Would you like to restart? Type \'Y\' or \'N\' ')
     while True:
       if restart.upper() == 'N':
-        print('END OF REPORT')
+        print('END OF REPORT. You can close the program now.')
         breaker = True
         break
       elif restart.upper() == 'Y':

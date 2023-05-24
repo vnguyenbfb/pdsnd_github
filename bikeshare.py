@@ -22,7 +22,7 @@ def get_filters():
   return city, filter 
 
 def load_data(city, filter):
-
+  """ DATA COVERING JANUARY TO JUNE 2017 """
   months = ['January', 'February', 'March', 'April', 'May', 'June']
   month_dict = {'January':1, 'February':2, 'March':3, 'April':4, 'May':5, 'June':6}
 
@@ -180,7 +180,7 @@ def main():
     restart = input('Would you like to restart? Type \'Y\' or \'N\' ')
     while True:
       if restart.upper() == 'N':
-        print('END OF REPORT')
+        print('END OF REPORT. You can close the program now.')
         breaker = True
         break
       elif restart.upper() == 'Y':
